@@ -1,0 +1,143 @@
+Setting Up the Project for Webpage
+To start a project, created a folder and added files to it.
+•	index.html: The main file that contains the structure of the webpage.
+•	style.css: The file where you will add all the styling to make the page more appealing.
+•	Building the HTML Structure for our Webpage
+The HTML structure forms the backbone of your tribute webpage. It will Include elements like headings , images, text content, and a footer. 
+file: index.html
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Lata Mangeshkar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lata Mangeshkar</h1>
+    </header>
+    
+    <div class="content">
+        <section class="biography">
+            <img src="https://images.careerindia.com/hi/img/2022/01/latamangeshkarbiographyageeducationnetworthawardsnews-1642860220.jpg">
+            <h2>About Lata Mangeshkar</h2>
+            
+            <p>Lata Mangeshkar was a celebrated Indian playback singer, known as the "Nightingale of India." Her contributions to Indian music are immense, with her voice resonating through generations. She recorded over 30,000 songs in various languages, earning numerous awards and accolades, including the Bharat Ratna, India's highest civilian award.         </section>
+
+        <section class="Major Achievements">
+            <h2>Major Achievements</h2>
+            <ul>
+                <li>Bharat Ratna (2001): India's highest civilian award, recognizing her contributions to the nation. </li>
+                <li>Dadasaheb Phalke Award (1989): A prestigious award for contribution to Indian cinema. </li>
+                <li>Padma Vibhushan (1999): One of India's highest civilian awards, recognizing her contributions to the arts. </li>
+                <li>Padma Bhushan (1969): Another of India's highest civilian awards, recognizing her contributions to the arts. </li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>Created by Pramey Rathod. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+Code Overview:
+•	We Have added a header for the webpage.
+•	A Biography section describing the person you are paying tribute to.
+•	A list of their achievement.
+•	A footer contain additional information.
+                            
+
+Styling with CSS:
+Now that you’ve set up the HTML structure, it’s time to make your page more attractive. Here’s how you can style it:
+file: style.css
+
+Code:
+=/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #006400;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Content styling */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Biography section styling */
+.biography {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.biography h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Achievements section styling */
+.achievements {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.achievements h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.achievements ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.achievements li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #006400;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+Code Overview :
+•	We have styled the body with a impressive background and text for readability.
+•	The header has different green background with white text focusing on the tribute.
+•	Content Sections like biography image and achievements are given padding and a subtle box shadow to create a card like effect.
+•	The footer is fixed at the bottom , it will ensure that footer is visible even when scrolling. 
+
